@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jabdekhoda
+HostName                       eex142.ee.ust.hk
+ProcessIdentifier              14145
+ProcessCreationTime_UTC        1700450518
+ProcessCreationTime_Readable   Mon Nov 20 11:21:58 2023 HKT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/jabdekhoda/myhome/Github_PAM4_PD/DATA_EDGE_QRT1/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon Nov 20 20:26:21 2023 HKT

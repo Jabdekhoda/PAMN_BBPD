@@ -1,0 +1,45 @@
+// VerilogA for gz_VerilogA_lib, gz_OSC_8Phase, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+`define PI      3.14159265
+
+module VCO_16Phase(DLY_CON,PH0,PH1,PH2,PH3,PH4,PH5,PH6,PH7,PH8,PH9,PH10,PH11,PH12,PH13,PH14,PH15);
+
+input DLY_CON;
+output PH0,PH1,PH2,PH3,PH4,PH5,PH6,PH7,PH8,PH9,PH10,PH11,PH12,PH13,PH14,PH15;
+electrical DLY_CON,PH0,PH1,PH2,PH3,PH4,PH5,PH6,PH7,PH8,PH9,PH10,PH11,PH12,PH13,PH14,PH15;
+parameter real P_Gain = `PI;
+parameter real amp = 1;
+parameter real freq = 3.5G;
+parameter real VDC = 0.5;
+parameter real Phs_Str = 0;
+
+        analog begin
+
+                $bound_step(1/freq/32);
+
+                V(PH0) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-0*`PI/8-P_Gain*V(DLY_CON))+0.5;
+                V(PH1) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-1*`PI/8-P_Gain*V(DLY_CON))+0.5;
+                V(PH2) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-2*`PI/8-P_Gain*V(DLY_CON))+0.5;
+                V(PH3) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-3*`PI/8-P_Gain*V(DLY_CON))+0.5;
+                V(PH4) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-4*`PI/8-P_Gain*V(DLY_CON))+0.5;
+                V(PH5) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-5*`PI/8-P_Gain*V(DLY_CON))+0.5;
+                V(PH6) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-6*`PI/8-P_Gain*V(DLY_CON))+0.5;
+                V(PH7) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-7*`PI/8-P_Gain*V(DLY_CON))+0.5;
+			 V(PH8) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-8*`PI/8-P_Gain*V(DLY_CON))+0.5;
+			 V(PH9) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-9*`PI/8-P_Gain*V(DLY_CON))+0.5;
+			 V(PH10) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-10*`PI/8-P_Gain*V(DLY_CON))+0.5;
+			 V(PH11) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-11*`PI/8-P_Gain*V(DLY_CON))+0.5;
+			 V(PH12) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-12*`PI/8-P_Gain*V(DLY_CON))+0.5;
+			 V(PH13) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-13*`PI/8-P_Gain*V(DLY_CON))+0.5;
+			 V(PH14) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-14*`PI/8-P_Gain*V(DLY_CON))+0.5;
+			 V(PH15) <+ amp/2*sin(2*`PI*freq*$abstime-Phs_Str/180*`PI-15*`PI/8-P_Gain*V(DLY_CON))+0.5;
+		
+
+
+        end
+
+
+endmodule

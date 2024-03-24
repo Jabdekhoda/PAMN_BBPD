@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Nov 20 22:14:18 2023 
+Best design point: 1
+Design specs: 
+	PAM4_PD_PAM4_PD56Gb_LP_V0_PV2_1	corner	Nominal - 
+	PD_OUT		-400.2m
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 14
+Number of simulation errors: 9
+ExplorerRun.0 completed. 
+Current time: Mon Nov 20 22:26:00 2023 

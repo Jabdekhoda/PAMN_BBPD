@@ -1,0 +1,2108 @@
+_outputList = nil
+ _envSaveOptions = nil
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->definedIn = ""
+tmp1->name = "VE0"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'difference
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/OEP"
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/OEN"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = ""
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = 't
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 1
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "VE0"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "v (/OUTP /OUTN); tran (V)"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'difference
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/OUTP"
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/OUTN"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 2
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "v (/OUTP /OUTN); tran (V)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "v /CK4; tran (V)"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/CK4"
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 3
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "v /CK4; tran (V)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "v /CK7; tran (V)"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/CK7"
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 4
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "v /CK7; tran (V)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "v /CK5; tran (V)"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/CK5"
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 5
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "v /CK5; tran (V)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->definedIn = ""
+tmp1->name = "VCMD"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'quotient
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'plus
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/ODP"
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/ODN"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = 2
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = ""
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 6
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "VCMD"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "v /DE_P; tran (V)"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/DE_P"
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 7
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "v /DE_P; tran (V)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "v /T0<1>; tran (V)"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/T0<1>"
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 8
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "v /T0<1>; tran (V)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->definedIn = ""
+tmp1->name = "INPUT"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'difference
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/INP"
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/INN"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = ""
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = 't
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 9
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "INPUT"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "v /CK2; tran (V)"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/CK2"
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 10
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "v /CK2; tran (V)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "v /CK1; tran (V)"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/CK1"
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 11
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "v /CK1; tran (V)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "v /CK3; tran (V)"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/CK3"
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 12
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "v /CK3; tran (V)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->definedIn = ""
+tmp1->name = nil
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'value
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'difference
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/A"
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/B"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'times
+tmp2 = 20
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = 'VAR
+tmp2 = "UI"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = ""
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = 't
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 13
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "value((vtime('tran \"/A\") - vtime('tran \"/B\")) (20 * VAR(\"UI\")))"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->definedIn = ""
+tmp1->name = "PD_OUT"
+tmp1->expression = (let
+(tmp1 tmp2)
+tmp1 = 'average
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'difference
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/A"
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/B"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2)
+)
+tmp1->signal = nil
+tmp1->scriptFile = ""
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = -3.2571530250383041e-01
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 14
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "PD_OUT"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = nil
+tmp1->expression = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5)
+tmp1 = 'eyeDiagram
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/I0/net6"
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'quotient
+tmp2 = 2
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = 'VAR
+tmp2 = "SmpRt"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp4 = 1.0000000000000001e-05
+tmp5 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'quotient
+tmp2 = 2
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = 'VAR
+tmp2 = "SmpRt"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3 tmp4 tmp5)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 15
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "eyeDiagram(vtime('tran \"/I0/net6\") (2 / VAR(\"SmpRt\")) 1e-05 (2 / VAR(\"SmpRt\")))"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = nil
+tmp1->expression = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5)
+tmp1 = 'eyeDiagram
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/CK2"
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'quotient
+tmp2 = 2
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = 'VAR
+tmp2 = "SmpRt"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp4 = 1.0000000000000001e-05
+tmp5 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'quotient
+tmp2 = 2
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = 'VAR
+tmp2 = "SmpRt"
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3 tmp4 tmp5)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 16
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "eyeDiagram(vtime('tran \"/CK2\") (2 / VAR(\"SmpRt\")) 1e-05 (2 / VAR(\"SmpRt\")))"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = nil
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'quotient
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'plus
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/OUTP"
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/OUTN"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = 2
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = nil
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 17
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "((vtime('tran \"/OUTP\") + vtime('tran \"/OUTN\")) / 2)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = nil
+tmp1->expression = (let
+(tmp1 tmp2)
+tmp1 = 'average
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'itime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/VDD_Logic/PLUS"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = -3.6727979145647092e-05
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 18
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "average(itime('tran \"/VDD_Logic/PLUS\"))"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = nil
+tmp1->expression = (let
+(tmp1 tmp2)
+tmp1 = 'average
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'itime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/VDD_Edge/PLUS"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = -1.2648334239198627e-03
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 19
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "average(itime('tran \"/VDD_Edge/PLUS\"))"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->definedIn = ""
+tmp1->name = nil
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'times
+tmp2 = 5.0000000000000000e-01
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = 'average
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'itime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/VDD_Data/PLUS"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = ""
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = 't
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = -1.3430632539675605e-03
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 20
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "(0.5 * average(itime('tran \"/VDD_Data/PLUS\")))"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->definedIn = ""
+tmp1->name = "VD0"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'difference
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/I40/net7"
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/I40/net6"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = ""
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = 't
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 21
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "VD0"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->definedIn = ""
+tmp1->name = "VD1"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'difference
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/I66/net7"
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/I66/net6"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = ""
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = 't
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 22
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "VD1"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "v /T0<2>; tran (V)"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/T0<2>"
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 23
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "v /T0<2>; tran (V)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "v /T1<2>; tran (V)"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/T1<2>"
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 24
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "v /T1<2>; tran (V)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->name = "v (/ODP /ODN); tran (V)"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'difference
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/ODP"
+list(tmp1 tmp2 tmp3)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = 'vtime
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'quote
+tmp2 = 'tran
+list(tmp1 tmp2)
+)
+tmp3 = "/ODN"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2 tmp3)
+)
+tmp1->signal = nil
+tmp1->scriptFile = nil
+tmp1->type2 = nil
+tmp1->evalType = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->updatedScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->isReferenced = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->sweepSet = nil
+tmp1->depList = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->implicit = nil
+tmp1->index = 25
+tmp1->timeStamp = nil
+tmp1->graphType = nil
+tmp1->yaxisLabel = nil
+tmp1->label = nil
+tmp1->yaxisUnit = nil
+tmp1->waveSpec = nil
+tmp1->uniqueName = "v (/ODP /ODN); tran (V)"
+tmp1->inValidObject = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+_envSaveOptions = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'keepRegPcellLabel
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'keepRegisteredPcell
+tmp2 = 't
+list(tmp1 tmp2)
+)
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = 'clearPcell
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp4 = (let
+(tmp1 tmp2)
+tmp1 = 'savePcellSelect
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp5 = (let
+(tmp1 tmp2)
+tmp1 = 'savePcell
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp6 = (let
+(tmp1 tmp2)
+tmp1 = 'subcktoppoint
+list(tmp1 tmp2)
+)
+tmp7 = (let
+(tmp1 tmp2)
+tmp1 = 'pcellFrame
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp8 = (let
+(tmp1 tmp2)
+tmp1 = 'saveBySubcktInstances
+tmp2 = (let
+(tmp1)
+tmp1 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10)
+tmp1 = "<Click_here_to_add_an_Instance>"
+tmp2 = ""
+tmp3 = ""
+tmp4 = ""
+tmp5 = ""
+tmp6 = ""
+tmp7 = ""
+tmp8 = ""
+tmp9 = "all"
+tmp10 = ""
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10)
+)
+list(tmp1)
+)
+list(tmp1 tmp2)
+)
+tmp9 = (let
+(tmp1 tmp2)
+tmp1 = 'saveBySubcktFrame
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp10 = (let
+(tmp1 tmp2)
+tmp1 = 'allcapInfo
+list(tmp1 tmp2)
+)
+tmp11 = (let
+(tmp1 tmp2)
+tmp1 = 'extremesInfo
+list(tmp1 tmp2)
+)
+tmp12 = (let
+(tmp1 tmp2)
+tmp1 = 'assertsInfo
+list(tmp1 tmp2)
+)
+tmp13 = (let
+(tmp1 tmp2)
+tmp1 = 'designParamValInfo
+tmp2 = 't
+list(tmp1 tmp2)
+)
+tmp14 = (let
+(tmp1 tmp2)
+tmp1 = 'subcktsInfo
+tmp2 = 't
+list(tmp1 tmp2)
+)
+tmp15 = (let
+(tmp1 tmp2)
+tmp1 = 'primitivesInfo
+tmp2 = 't
+list(tmp1 tmp2)
+)
+tmp16 = (let
+(tmp1 tmp2)
+tmp1 = 'outputParamInfo
+tmp2 = 't
+list(tmp1 tmp2)
+)
+tmp17 = (let
+(tmp1 tmp2)
+tmp1 = 'elementInfo
+tmp2 = 't
+list(tmp1 tmp2)
+)
+tmp18 = (let
+(tmp1 tmp2)
+tmp1 = 'modelParamInfo
+tmp2 = 't
+list(tmp1 tmp2)
+)
+tmp19 = (let
+(tmp1 tmp2)
+tmp1 = 'fastViewOption
+list(tmp1 tmp2)
+)
+tmp20 = (let
+(tmp1 tmp2)
+tmp1 = 'simOutputFormat
+tmp2 = "psfxl"
+list(tmp1 tmp2)
+)
+tmp21 = (let
+(tmp1 tmp2)
+tmp1 = 'outputFrame
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp22 = (let
+(tmp1 tmp2)
+tmp1 = 'captab_threshold
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp23 = (let
+(tmp1 tmp2)
+tmp1 = 'captab_sort
+tmp2 = "name"
+list(tmp1 tmp2)
+)
+tmp24 = (let
+(tmp1 tmp2)
+tmp1 = 'captab_detail
+tmp2 = "node"
+list(tmp1 tmp2)
+)
+tmp25 = (let
+(tmp1 tmp2)
+tmp1 = 'infoOptions
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9)
+tmp1 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+tmp1 = "modelParameter"
+tmp2 = "models"
+tmp3 = "rawfile"
+tmp4 = ""
+tmp5 = ""
+tmp6 = ""
+tmp7 = 't
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+tmp1 = "element"
+tmp2 = "inst"
+tmp3 = "rawfile"
+tmp4 = ""
+tmp5 = ""
+tmp6 = ""
+tmp7 = 't
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+)
+tmp3 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+tmp1 = "outputParameter"
+tmp2 = "output"
+tmp3 = "rawfile"
+tmp4 = ""
+tmp5 = ""
+tmp6 = ""
+tmp7 = 't
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+)
+tmp4 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+tmp1 = "designParamVals"
+tmp2 = "parameters"
+tmp3 = "rawfile"
+tmp4 = ""
+tmp5 = ""
+tmp6 = ""
+tmp7 = 't
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+)
+tmp5 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+tmp1 = "primitives"
+tmp2 = "primitives"
+tmp3 = "rawfile"
+tmp4 = ""
+tmp5 = ""
+tmp6 = ""
+tmp7 = 't
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+)
+tmp6 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+tmp1 = "subckts"
+tmp2 = "subckts"
+tmp3 = "rawfile"
+tmp4 = ""
+tmp5 = ""
+tmp6 = ""
+tmp7 = 't
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+)
+tmp7 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+tmp1 = "asserts"
+tmp2 = "assert"
+tmp3 = "rawfile"
+tmp4 = ""
+tmp5 = ""
+tmp6 = ""
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+)
+tmp8 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+tmp1 = "extremeinfo"
+tmp2 = "all"
+tmp3 = "logfile"
+tmp4 = ""
+tmp5 = "yes"
+tmp6 = ""
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+)
+tmp9 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+tmp1 = "<Click_To_Add>"
+tmp2 = "none"
+tmp3 = "rawfile"
+tmp4 = ""
+tmp5 = ""
+tmp6 = ""
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7)
+)
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9)
+)
+list(tmp1 tmp2)
+)
+tmp26 = (let
+(tmp1 tmp2)
+tmp1 = 'infoFrame
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp27 = (let
+(tmp1 tmp2)
+tmp1 = 'sumInfo_a
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp28 = (let
+(tmp1 tmp2)
+tmp1 = 'time_window_a
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp29 = (let
+(tmp1 tmp2)
+tmp1 = 'signalNames
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp30 = (let
+(tmp1 tmp2)
+tmp1 = 'timeWindow
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp31 = (let
+(tmp1 tmp2)
+tmp1 = 'timeWindLabel
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp32 = (let
+(tmp1 tmp2)
+tmp1 = 'enableTimeWindowSetup
+list(tmp1 tmp2)
+)
+tmp33 = (let
+(tmp1 tmp2)
+tmp1 = 'timewindFrame
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp34 = (let
+(tmp1 tmp2)
+tmp1 = 'saveahdlvars
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp35 = (let
+(tmp1 tmp2)
+tmp1 = 'subcktprobelvl
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp36 = (let
+(tmp1 tmp2)
+tmp1 = 'useprobes
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp37 = (let
+(tmp1 tmp2)
+tmp1 = 'currents
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp38 = (let
+(tmp1 tmp2)
+tmp1 = 'nestlvl
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp39 = (let
+(tmp1 tmp2)
+tmp1 = 'pwr
+tmp2 = ""
+list(tmp1 tmp2)
+)
+tmp40 = (let
+(tmp1 tmp2)
+tmp1 = 'save
+tmp2 = "allpub"
+list(tmp1 tmp2)
+)
+tmp41 = (let
+(tmp1 tmp2)
+tmp1 = 'saveFrame
+tmp2 = ""
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41)
+)
+savedComponent = list( _outputList _envSaveOptions ) 
+_outputList = 'unbound
+ _envSaveOptions = 'unbound

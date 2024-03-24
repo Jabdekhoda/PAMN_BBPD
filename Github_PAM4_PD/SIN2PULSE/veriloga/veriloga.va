@@ -1,0 +1,37 @@
+// VerilogA for gz_VerilogA_lib, gz_SIN2PULSE, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module SIN2PULSE(IN,OUT);
+
+input IN;
+output OUT;
+electrical IN,OUT;
+
+parameter real tdel = 10p;
+parameter real trise = 10p;
+parameter real tfall = 10p;
+parameter real vtrans = 0.5;
+parameter real voltage_high = 1;
+parameter real voltage_low = 0;
+
+
+        real out;
+
+        analog begin
+
+                @(cross(V(IN)-vtrans,1)) begin
+                        out = voltage_high;
+                end
+
+                @(cross(V(IN)-vtrans,-1)) begin
+                        out = voltage_low;
+                end
+
+        V(OUT) <+ transition(out,tdel,trise,tfall);
+
+        end
+
+
+endmodule
