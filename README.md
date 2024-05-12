@@ -1,8 +1,7 @@
+## PAMN BBPD
 <picture>
   <img src="https://github.com/Jabdekhoda/PAMN_BBPD/blob/main/PAMNBBPD.png">
 </picture>
-## PAMN BBPD
-
 Welcome to the PAMN BBPD repository on GitHub! This repository contains a library for the PAM4 implementation of the idea at the schematic level.
 
 ## About the Project
